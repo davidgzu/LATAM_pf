@@ -1,7 +1,16 @@
 .background-footer {
-    background-color: #0D0D0D;
+    background-color: #8C8C8C;
 }
 
 .white-text {
     color: white;
+}
+
+.ccd {
+    max-width: 30%;
+}
+
+.flex-logos {
+    display: flex;
+    flex-direction: row;
 }
