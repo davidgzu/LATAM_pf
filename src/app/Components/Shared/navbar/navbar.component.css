@@ -1,0 +1,12 @@
+.title-page {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
