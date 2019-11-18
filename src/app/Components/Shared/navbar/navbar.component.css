@@ -10,3 +10,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.bg-nav {
+    background-color: #152619;
+}
