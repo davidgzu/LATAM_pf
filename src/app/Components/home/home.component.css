@@ -1,0 +1,19 @@
+        .hero_container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #221E21;
+            flex-direction: column;
+        }
+        
+        .hero {
+            background-image: url(../../../assets/35550.jpg);
+            background-repeat: no-repeat;
+            width: 30%;
+            height: 350px;
+            background-size: cover;
+        }
+        
+        .bio {
+            font-family: 'Ibarra Real Nova', serif;
+        }
