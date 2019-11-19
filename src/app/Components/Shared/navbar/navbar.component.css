@@ -1,6 +1,6 @@
 .title-page {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: lighter;
 }
 
@@ -13,4 +13,21 @@
 
 .bg-nav {
     background-color: #221E21;
+}
+
+.nav-item-link {
+    color: #433C39;
+    font-family: "Open Sans";
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-color: #FF4A07 !important;
+}
+
+.nav-item-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #FF4A07;
+}
+
+.active-link {
+    text-decoration: underline;
 }

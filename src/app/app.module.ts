@@ -13,6 +13,7 @@ import { FooterComponent } from './Components/Shared/footer/footer.component';
 import { HomeComponent } from './Components/home/home.component';
 import { CasaTomadaComponent } from './Components/casa-tomada/casa-tomada.component';
 import { LaNocheComponent } from './Components/la-noche/la-noche.component';
+import { LaPuertaCondenadaComponent } from './Components/la-puerta-condenada/la-puerta-condenada.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LaNocheComponent } from './Components/la-noche/la-noche.component';
     HomeComponent,
     CasaTomadaComponent,
     LaNocheComponent,
+    LaPuertaCondenadaComponent,
   ],
   imports: [
     BrowserModule,

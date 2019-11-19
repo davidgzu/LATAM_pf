@@ -1,0 +1,76 @@
+div#scroll-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 6px;
+    background-color: #795A2B;
+}
+
+.hero_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #101010;
+    flex-direction: column;
+}
+
+.hero {
+    background-image: url(../../../assets/La-puerta-condenada.jpg);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 400px;
+    background-size: cover;
+    margin: 3%;
+}
+
+.bio {
+    font-family: 'Ibarra Real Nova', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 10%;
+    color: white;
+}
+
+.parrafo {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    max-width: 60%;
+    color: white;
+    text-align: justify;
+}
+
+.hero2 {
+    background-image: url(../../../assets/door.png);
+    background-repeat: no-repeat;
+    width: 19%;
+    height: 288px;
+    background-size: cover;
+    margin: 3%;
+}
+
+.hero3 {
+    background-image: url(../../../assets/hotel.png);
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 268px;
+    background-size: cover;
+    margin: 3%;
+}
+
+.hero4 {
+    background-image: url(../../../assets/515783-PISHLL-874.jpg);
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 277px;
+    background-size: cover;
+    margin: 3%;
+}
