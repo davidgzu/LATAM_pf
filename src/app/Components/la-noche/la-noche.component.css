@@ -4,22 +4,22 @@ div#scroll-bar {
     left: 0;
     width: 0;
     height: 6px;
-    background-color: rgb(37, 64, 41);
+    background-color: rgb(226, 14, 27);
 }
 
 .hero_container {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F3D59A;
+    background-color: #101010;
     flex-direction: column;
 }
 
 .hero {
-    background-image: url(https://f4.bcbits.com/img/a1611400490_10.jpg);
+    background-image: url(../../../assets/la-noche-boca-arriba-00454.jpg);
     background-repeat: no-repeat;
-    width: 37%;
-    height: 490px;
+    width: 40%;
+    height: 353px;
     background-size: cover;
     margin: 3%;
 }
@@ -37,17 +37,19 @@ h2 {
     font-weight: bold;
     font-size: 3rem;
     margin-bottom: 10%;
+    color: white;
 }
 
 .parrafo {
     font-family: 'Ibarra Real Nova', serif;
     font-size: 20px;
     max-width: 60%;
+    color: white;
     text-align: justify;
 }
 
 .hero2 {
-    background-image: url(../../../assets/estambre.png);
+    background-image: url(../../../assets/llanta.png);
     background-repeat: no-repeat;
     width: 26%;
     height: 312px;
@@ -56,19 +58,28 @@ h2 {
 }
 
 .hero3 {
-    background-image: url(../../../assets/libros.png);
+    background-image: url(../../../assets/siren.png);
     background-repeat: no-repeat;
-    width: 26%;
-    height: 312px;
+    width: 30%;
+    height: 268px;
     background-size: cover;
     margin: 3%;
 }
 
 .hero4 {
-    background-image: url(../../../assets/key.png);
+    background-image: url(../../../assets/515783-PISHLL-874.jpg);
     background-repeat: no-repeat;
-    width: 7%;
-    height: 204px;
+    width: 40%;
+    height: 277px;
+    background-size: cover;
+    margin: 3%;
+}
+
+.hero5 {
+    background-image: url(../../../assets/cama.png);
+    background-repeat: no-repeat;
+    width: 24%;
+    height: 235px;
     background-size: cover;
     margin: 3%;
 }
