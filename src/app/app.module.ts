@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { FooterComponent } from './Components/Shared/footer/footer.component';
 import { HomeComponent } from './Components/home/home.component';
+import { CasaTomadaComponent } from './Components/casa-tomada/casa-tomada.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    CasaTomadaComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,73 @@
+div#scroll-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 6px;
+    background-color: rgb(37, 64, 41);
+}
+
+.hero_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3D59A;
+    flex-direction: column;
+}
+
+.hero {
+    background-image: url(https://f4.bcbits.com/img/a1611400490_10.jpg);
+    background-repeat: no-repeat;
+    width: 37%;
+    height: 490px;
+    background-size: cover;
+    margin: 3%;
+}
+
+.bio {
+    font-family: 'Ibarra Real Nova', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 10%;
+}
+
+.parrafo {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    max-width: 60%;
+}
+
+.hero2 {
+    background-image: url(../../../assets/estambre.png);
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 312px;
+    background-size: cover;
+    margin: 3%;
+}
+
+.hero3 {
+    background-image: url(../../../assets/libros.png);
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 312px;
+    background-size: cover;
+    margin: 3%;
+}
+
+.hero4 {
+    background-image: url(../../../assets/key.png);
+    background-repeat: no-repeat;
+    width: 7%;
+    height: 204px;
+    background-size: cover;
+    margin: 3%;
+}
